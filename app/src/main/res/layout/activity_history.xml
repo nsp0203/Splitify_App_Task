@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expense History"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/item"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:text="Item: Onions"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/price"
+            android:layout_toEndOf="@+id/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Price: 45"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/paid_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paid by: Mike"
+            android:layout_marginTop="75dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            ></TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/item_2"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:text="Item: Eggs"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/price_2"
+            android:layout_toEndOf="@+id/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Price: 42"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/paid_by_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paid by: John"
+            android:layout_marginTop="75dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            ></TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/item_3"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:text="Item: sugar"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/price_3"
+            android:layout_toEndOf="@+id/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Price: 30"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/paid_by_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paid by: Mike"
+            android:layout_marginTop="75dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            ></TextView>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
